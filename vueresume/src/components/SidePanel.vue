@@ -11,9 +11,6 @@
     name: 'SidePanel',
     components: {
       PanelInsert
-    },
-    props: {
-      msg: String
     }
   }
 </script>

@@ -2,7 +2,7 @@
     <div id="app" class="row">
         <div class="col-2"></div>
         <div id="mainColumn" class="col-6 red">
-        <img alt="Vue logo" src="./assets/logo.png">
+        <img alt="Vue logo" src="../assets/logo.png">
         <MainPanel/>
         </div>
         <div id="sideColumn" class="col-2 green">         
@@ -13,8 +13,8 @@
 </template>
 
 <script>
-  import MainPanel from './components/MainPanel.vue'
-  import SidePanel from './components/SidePanel.vue'
+  import MainPanel from '../components/MainPanel.vue'
+  import SidePanel from '../components/SidePanel.vue'
   export default {
     name: 'Body',
     components: {
