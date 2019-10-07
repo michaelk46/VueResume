@@ -331,26 +331,52 @@
   font-weight: normal;
 }
 
+.textAlign-r {
+  text-align: right;
+}
+
+.textAlign-l {
+  text-align: left;
+}
+
+#body {
+  color: #35495E;
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Exo', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin-top: 60px;
 }
 
-#mainHeader {
+#header {
+  margin-bottom: 2rem;
+  color: #00C08E;
+}
+
+#header #fullName {
+  font-size: 2rem;
+}
+
+#header #location {
+  font-size: .75rem;
+  margin-top: -.25rem;
+}
+
+#header #emailAddress {
+  margin-top: -.75rem;
+}
+
+#header #fields {
   padding-left: 0;
 }
 
-#mainHeader #left {
-  text-align: left;
+.fa {
+  color: #00C08E;
 }
 
-#mainHeader #left.col-6 {
-  padding-left: 0;
-}
-
-#mainHeader #right {
-  text-align: right;
+.fa.fa-envelope-o {
+  font-size: .75rem;
 }
